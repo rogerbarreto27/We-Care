@@ -1,0 +1,135 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    color: #989D9C;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.home {
+    margin-right: 23px;
+    cursor: pointer;
+}
+
+header {
+    margin: 44px 0 0 76px;
+    display: inline-block;
+}
+
+.login {
+    width: 130px;
+    height: 41px;
+    border-radius: 20.5px;
+    background: #665AE1;
+    border: none;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.login:hover {
+    opacity: .4;
+}
+
+.login:active {
+    color: #665AE1 ;
+    background: #989D9C;
+}
+img {
+    margin: 217px 0 0 125px
+}
+
+main {
+    display: inline-block;
+    margin-left: 86px;
+    color: #515151
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 58px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 400;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.explore {
+    width: 239px;
+    height: 64px;
+    border-radius: 20.5px;
+    background: #ADFF00;
+    border: none;
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.home:nth-child(3) {
+    color: #665AE1;
+}
+
+.explore:hover {
+    background: #515151;
+    color: #ADFF00;
+    
+}
+
+@media screen and (max-width: 900px) {
+    div {
+        display: none;
+    }
+
+    img {
+        margin: 149px 14px 24px 14px;
+        width: 354px;
+        height: 317px;
+
+    }
+
+    header {
+        margin: 0;
+    }
+
+    p { 
+        display: none;
+    }
+
+    h1 {
+        font-size: 50px;
+        text-align: center;
+        width: 263px;
+        height: 52px;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-top: 7px;
+        margin-bottom: 17px;
+    }
+
+    main {
+        margin-left: 64px;
+    }
+
+    .explore {
+        display: block;
+        margin: 0 auto;
+    }
+}
